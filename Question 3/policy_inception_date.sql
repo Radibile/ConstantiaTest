@@ -1,0 +1,1 @@
+SELECT * FROM policy WHERE policy_inception_date > '2021-07-21';

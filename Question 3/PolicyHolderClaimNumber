@@ -1,0 +1,1 @@
+CREATE VIEW PolicyHolderClaimNumber AS( SELECT PL.policy_number "Policy Number", CONCAT(PL.policy_holder_first_name," ",PL.policy_holder_last_name) AS "Policy Holder Name" , CL.claim_number "Claim Number" FROM policy PL INNER JOIN claim CL ON PL.policy_number = CL.policy_number );
