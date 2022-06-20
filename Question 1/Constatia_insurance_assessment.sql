@@ -1,0 +1,1 @@
+CREATE DATABASE Constatia_insurance_assessment
